@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
+
+body{
+    font-family: 'Turret Road';
+    background : black url('abc.jpg') no-repeat center center/cover;
+    overflow: hidden;
+    height: 100vh;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0;
+}
+.container{
+    background-color: rgba(253, 253, 253, 0.541);
+    width:100vw;
+    text-align: center;
+}
+.fs-4{
+    font-size: 4rem;
+}
+.fs-2{
+    font-size:2rem;
+}
+.textShow{
+    border-right:5px solid rgba(56, 56, 56, 0.603);
+}
